@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: cornflowerblue;
+  height: 1500px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  height: 150px;
+  background-color: darkslategrey;
+  border-radius: 0 25%;
+}
+article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h3 {
+  margin: 40px 0px;
+}
+button {
+  height: 40px;
+  width: 80px;
+  border: 1px outset grey;
+  border-radius: 8px;
+  color: black;
+  margin-right: 20px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: darkorchid;
+  color: white;
+}
+.message {
+  height: 150px;
+  width: 100%;
+  background-color: brown;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  line-height: 150px;
+  display: none;
+  border-radius: 0 25%;
+}
